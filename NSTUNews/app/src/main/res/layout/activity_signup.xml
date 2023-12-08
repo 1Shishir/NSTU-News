@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <TextView
+         android:id="@+id/textView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="30dp"
+         android:layout_marginTop="20dp"
+         android:text="Register as reader"
+         android:textAlignment="center"
+         android:textColor="@color/textColor"
+         android:textSize="22sp"
+         android:textStyle="bold"
+         app:layout_constraintBottom_toTopOf="@+id/sign_linear"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+
+     </TextView>
+
+     <LinearLayout
+         android:id="@+id/sign_linear"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:orientation="vertical"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/textView">
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/sign_textInputEditText3"
+             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+             android:layout_width="match_parent"
+
+             android:layout_height="wrap_content"
+             android:layout_marginStart="30dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginEnd="30dp"
+             android:layout_marginRight="30dp"
+             app:boxStrokeColor="@color/colorPrimary"
+             app:endIconMode="clear_text">
+
+             <com.google.android.material.textfield.TextInputEditText
+                 android:id="@+id/sign_fname"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:hint="First Name"
+                 android:inputType="text" />
+         </com.google.android.material.textfield.TextInputLayout>
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/sign_textInputEditText4"
+             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+             android:layout_width="match_parent"
+
+             android:layout_height="wrap_content"
+             android:layout_marginStart="30dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginEnd="30dp"
+             android:layout_marginRight="30dp"
+             android:hint="Last Name"
+             app:boxStrokeColor="@color/colorPrimary"
+             app:endIconMode="clear_text">
+
+             <com.google.android.material.textfield.TextInputEditText
+                 android:id="@+id/sign_lname"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:inputType="text" />
+         </com.google.android.material.textfield.TextInputLayout>
+
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/sign_textInputEditText"
+             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+             android:layout_width="match_parent"
+
+             android:layout_height="wrap_content"
+             android:layout_marginStart="30dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginEnd="30dp"
+             android:layout_marginRight="30dp"
+             android:hint="Email"
+             app:boxStrokeColor="@color/colorPrimary"
+             app:endIconMode="clear_text">
+
+             <com.google.android.material.textfield.TextInputEditText
+                 android:id="@+id/sign_email"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:inputType="textEmailAddress"
+                 android:textColor="@color/textColor"
+                 android:textColorHint="@color/textColor" />
+         </com.google.android.material.textfield.TextInputLayout>
+
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/sign_textInput"
+             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+             android:layout_width="match_parent"
+
+             android:layout_height="wrap_content"
+             android:layout_marginStart="30dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginEnd="30dp"
+             android:layout_marginRight="30dp"
+             android:hint="Phone"
+             app:boxStrokeColor="@color/colorPrimary"
+             app:endIconMode="clear_text">
+
+             <com.google.android.material.textfield.TextInputEditText
+                 android:id="@+id/sign_phone"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:inputType="phone"
+                 android:textColor="@color/textColor"
+                 android:textColorHint="@color/textColor" />
+         </com.google.android.material.textfield.TextInputLayout>
+
+         <com.google.android.material.textfield.TextInputLayout
+             android:id="@+id/sign_textInputEditText2"
+             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+             android:layout_width="match_parent"
+
+             android:layout_height="wrap_content"
+             android:layout_marginStart="30dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="20dp"
+             android:layout_marginEnd="30dp"
+             android:layout_marginRight="30dp"
+             android:hint="Password"
+             app:boxStrokeColor="@color/colorPrimary"
+             app:endIconMode="password_toggle">
+
+             <com.google.android.material.textfield.TextInputEditText
+                 android:id="@+id/sign_password"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:inputType="textPassword" />
+
+         </com.google.android.material.textfield.TextInputLayout>
+
+
+     </LinearLayout>
+
+     <Button
+         android:id="@+id/sign_signup"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/radius_button"
+         android:text="Sign UP"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/nevigateLogin"
+         app:layout_constraintVertical_bias="0.4"></Button>
+
+     <Button
+         android:id="@+id/sign_role"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+
+         android:layout_marginBottom="30dp"
+
+         android:background="@drawable/radius_button"
+         android:text="Register as writer"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/sign_signup"></Button>
+
+     <TextView
+         android:id="@+id/nevigateLogin"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="end"
+
+         android:layout_marginTop="20dp"
+
+         android:layout_marginEnd="30dp"
+
+         android:text="Already have an account? Log in"
+         android:textColor="@color/textColor"
+         android:textSize="15dp"
+         android:textStyle="italic"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/sign_linear"
+         app:layout_constraintVertical_bias="0.2">
+
+     </TextView>
+ </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

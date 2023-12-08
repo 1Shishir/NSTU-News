@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_profile" android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/menu_editProfile" android:title="Edit Profile" android:icon="@drawable/ic_baseline_edit_24"></item>
+            <item android:id="@+id/menu_signout" android:title="Sign out" android:icon="@drawable/logout_2_"></item>
+            <item android:id="@+id/menu_signin" android:title="Log in" android:icon="@drawable/login"></item>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_option" android:title="Options">
+        <menu >
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/menu_home" android:title="Home" android:icon="@drawable/ic_baseline_home_24"></item>
+            <item android:id="@+id/menu_category" android:title="Category" android:icon="@drawable/ic_baseline_category_24"></item>
+            <item android:id="@+id/menu_add_news" android:title="Add News" android:icon="@drawable/baseline_add_box_24"></item>
+            <item android:id="@+id/menu_add_category" android:title="Add Category" android:icon="@drawable/ic_baseline_assessment_24"></item>
+            <item android:id="@+id/menu_run_python" android:title="Run Python" android:icon="@drawable/baseline_arrow_right_24"></item>
+            <item android:id="@+id/menu_upload" android:title="Upload" android:icon="@drawable/baseline_arrow_right_24"></item>
+            </group>
+        </menu>
+
+    </item>
+
+
+
+</menu>

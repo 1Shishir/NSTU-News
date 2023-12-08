@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "849506019932",
+    "project_id": "nstu-news",
+    "storage_bucket": "nstu-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849506019932:android:e2252e030d08253574d499",
+        "android_client_info": {
+          "package_name": "com.example.nstunews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849506019932-lh6m48bglgc8hgf0qhpmovuga3hs7kqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIhQBvbe7O0bAPJGhjHzgxYPP5caX1OEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849506019932-lh6m48bglgc8hgf0qhpmovuga3hs7kqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
